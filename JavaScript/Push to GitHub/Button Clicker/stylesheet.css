@@ -1,0 +1,112 @@
+* {
+    margin: 0 auto;
+    width: 0 auto;
+}
+
+.Page-Container {
+    display: flex;
+    width: 600px;
+    height: min-content;
+}
+.nav-container {
+    background-color: gray;
+    width: 600px;
+    height: 50px;
+    display: flex
+}
+
+.navbar {
+    
+    width: 1300px;
+    display: inline-flex;
+    justify-content: space-between;
+    border: solid black;
+    align-items: center;
+}
+
+.Search {
+    width: 200px;
+
+}
+
+.Login {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.Login, .Search {
+    height: min-content;
+    border: 2px solid black;
+}
+
+.Left-Container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    
+}
+
+.likes {
+    box-shadow: 3px 3px 1px black;
+    margin-top: 20px;
+    background-color: rgb(255, 225, 107);
+}
+
+.Top-Left, .Bottom-Left {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+    margin-bottom: 20px;
+    height: 130px;
+
+}
+
+.definition{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.Top-Left {
+    border: 2px solid black;
+    margin-left: 0px;
+
+}
+
+.Bottom-Left {
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.ninja { 
+    border: 2px solid purple;
+    width: 300px;
+}
+
+.Top-Left,.Top-Right {
+    margin-top: 20px;
+}
+
+
+.Top-Right {
+    border: 2px solid black;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.add-definition,.Login {
+    box-shadow: 3px 3px 1px black;
+}
+
+.Add {
+    background-color:rgb(108, 216, 108);
+    width: 160px;
+    padding: 5px;
+    margin-top: 10px;
+}
